@@ -9,6 +9,7 @@ import Projects from "./pages/Projects";
 function App() {
   return (
     <div>
+      <h1>Hej monorepo</h1>
       <Navigation />
       <Routes>
         <Route path="/" element={<Home />} />
